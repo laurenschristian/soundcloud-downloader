@@ -2,10 +2,10 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "soundcloud-downloader",
   "title": "SoundCloud Downloader",
-  "description": "Download SoundCloud tracks as single MP3 files with embedded artwork and metadata",
+  "description": "Download SoundCloud tracks as MP3 with album artwork",
   "version": "1.0.0",
   "icon": "command-icon.png",
-  "author": "laurenschristian",
+  "author": "your-username",
   "categories": [
     "Applications"
   ],
@@ -14,7 +14,7 @@
     {
       "name": "soundcloud-downloader",
       "title": "Download SoundCloud Track",
-      "description": "Download SoundCloud tracks as single MP3 files with embedded artwork and metadata",
+      "description": "Download SoundCloud tracks as MP3 with album artwork to your Downloads folder.",
       "mode": "view",
       "icon": "command-icon.png"
     }
