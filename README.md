@@ -12,7 +12,7 @@ A powerful Raycast extension for downloading SoundCloud tracks and playlists wit
 
 ### 🍎 **Apple Music Integration**
 - Automatic import to Apple Music library
-- Creates "SoundCloud Downloads" album for organization
+- **Smart album naming**: Extracts actual playlist/artist names from URLs
 - Auto-opens Apple Music after successful downloads
 - Proper metadata tagging for seamless integration
 
@@ -95,6 +95,14 @@ The extension automatically detects and creates the Apple Music import folder:
 - **No clutter**: No separate .jpg, .json, or .txt files
 - **Apple Music ready**: Perfect for drag-and-drop or auto-import
 - **Easy management**: Move, copy, or organize single files
+
+### Smart Album Organization
+- **Dynamic album names**: Automatically extracts playlist/set names from URLs
+- **Examples**:
+  - `soundcloud.com/artist/sets/edc-las-vegas-2025` → "Edc Las Vegas 2025" album
+  - `soundcloud.com/keinemusik/sets/boys-noize` → "Boys Noize" album
+  - `soundcloud.com/artist/track-name` → "Artist" album
+- **Fallback**: Uses artist name or "SoundCloud Downloads" if extraction fails
 
 ### Security Features
 - Input sanitization to prevent shell injection
